@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Jost';
+}
+
+li.click-me:hover .dropdown {
+    visibility: visible;
+    opacity: 1;
+}
+.click-here:hover .dropdown{
+    visibility: visible;
+    opacity: 1;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+.overlay2:target {
+    visibility: visible;
+    opacity: 1;
+}
+.overlay3:target { 
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Go Trip</title>
+  <link rel="shortcut icon" href="logo/Screenshot__70_-removebg-preview.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/font.css">
+
+  <script src="css/tailwindcss.css"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+
+<!--------------- HEADER__AREA -------------->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+<header class="fixed w-[100%] flex items-center z-[100] h-[90px] justify-between bg-[#13357b] py-5 px-4">
+  <div class="left-head">
+    <div class="flex items-center justify-between">
+      <div class="left-head flex items-center">
+        <ul class="justify-between flex px-4 items-center">
+          <li class="logo mr-5">
+            <a href=""><img src="img/logo-light.svg" alt="" /></a>
+          </li>
+          <li class="click-me px-2.5 py-4 items-center relative hover:visible">
+            <a href="" class="text-white mr-2.5 text-[15px] font-normal">Home</a><i
+              class="fa-solid fa-sort-down text-white text-[10px] pb-px"></i>
+            <div
+              class="dropdown invisible opacity-0 absolute p-5 bg-white min-w-[240px] top-[66px] rounded left-1 ease-in-out duration-300 ">
+              <div class="w-3.5 h-3.5 bg-white top-[-6px] absolute rotate-45 "></div>
+              <ul class="">
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Home 1</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Home 2</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Home 3</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Home 4</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Home 5</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Home 6</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Home 7</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Home 8</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Home 9</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Home 10</a></li>
+
+              </ul>
+            </div>
+          </li>
+          <li class="click-me px-2.5 py-4 flex items-center relative">
+            <a href="" class="text-white mr-2.5 text-[15px] font-normal">Categories</a><i
+              class="fa-solid fa-sort-down text-white text-[10px]"></i>
+            <div
+              class="dropdown mega absolute p-[30px] bg-white w-[800px] top-[66px] rounded left-1 opacity-0 invisible ease-in-out duration-300">
+
+              <div class="w-3.5 h-3.5 bg-white top-[-6px] absolute rotate-45 "></div>
+
+              <div class="navbar flex pb-7">
+                <div class="px-[15px] ty-[5px] text-blue-600 underline-offset-4"><u><a href="#">Hotel</a> </u></div>
+                <div class="px-[15px] ty-[5px]"><a href=""> Tour</a></div>
+                <div class="px-[15px] ty-[5px]"><a href=""> Activity</a></div>
+                <div class="px-[15px] ty-[5px]"><a href=""> Holidy Rentals</a></div>
+                <div class="px-[15px] ty-[5px]"><a href=""> Car</a></div>
+                <div class="px-[15px] ty-[5px]"><a href=""> Cruise</a></div>
+                <div class="px-[15px] ty-[5px]"><a href=""> Flight</a></div>
+
+
+              </div>
+              <div class="flex justify-between">
+                <div class="flex justify-between w-[390px]">
+                  <ul class="">
+                    <li class="py-1 rounded flex text-sm hover:text-blue-600 font-semibold "><a href="#"
+                        class="p-[2px] ">Hotel list</a></li>
+                    <li class="py-1 rounded flex text-sm hover:text-blue-600"><a href="#" class="p-[2px]">Hotel list
+                        v1</a></li>
+                    <li class="py-1 rounded flex text-sm hover:text-blue-600"><a href="#" class="p-[2px]">Hotel list
+                        v2</a></li>
+                    <li class="py-1 rounded flex text-sm hover:text-blue-600"><a href="#" class="p-[2px]">Hotel list
+                        v3</a></li>
+                    <li class="py-1 rounded flex text-sm hover:text-blue-600"><a href="#" class="p-[2px]">Hotel list
+                        v4</a></li>
+                    <li class="py-1 rounded flex text-sm hover:text-blue-600"><a href="#" class="p-[2px]">Hotel list
+                        v5</a></li>
+                  </ul>
+                  <ul class="">
+                    <li class="py-1 rounded px-4 flex text-sm hover:text-blue-600 font-semibold "><a href="#"
+                        class="p-[2px]">Hotel Sigle</a></li>
+                    <li class="py-1 rounded px-4 flex text-sm hover:text-blue-600"><a href="#" class="p-[2px]">Hotel
+                        Single v1</a></li>
+                    <li class="py-1 rounded px-4 flex text-sm hover:text-blue-600"><a href="#" class="p-[2px]">Hotel
+                        Single v2</a></li>
+
+                  </ul>
+                  <ul class="">
+                    <li class="py-1 rounded px-4 flex text-sm hover:text-blue-600 font-semibold "><a href="#"
+                        class="p-[2px]">Hotel Booking</a></li>
+                    <li class="py-1 rounded px-4 flex text-sm hover:text-blue-600"><a href="#" class="p-[2px]">Booking
+                        Page</a></li>
+
+                  </ul>
+                </div>
+                <div class="flex">
+                  <img src="img/7 (1).png" alt="" class="w-[270px] min-h-[300px] rounded relative">
+                  <div class="absolute text-white text-[20px] font-bold p-[30px]">Thinking to do on <br> your trip
+                    <div
+                      class="absolute px-[30px] bg-white hover:bg-[#3554d1] text-black hover:text-white text-sm py-3.5 rounded font-medium mt-5">
+                      Experinces</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="px-2.5 py-4 flex items-center">
+            <a href=""
+              class="text-white mr-2.5 text-[15px] font-normal hover:text-blue-600 ease-in-out duration-300">Destination</a>
+          </li>
+          <li class="click-me px-2.5 py-4 flex items-center relative">
+            <a href="" class="text-white mr-2.5 text-[15px] font-normal">Blog</a><i
+              class="fa-solid fa-sort-down text-white text-[10px]"></i>
+            <div
+              class="dropdown invisible opacity-0 absolute p-5 bg-white min-w-[240px] top-[66px] rounded left-1 ease-in-out duration-300">
+              <div class="w-3.5 h-3.5 bg-white top-[-6px] absolute rotate-45 "></div>
+              <ul class="">
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Blog list v1</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Blog list v2</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Blog Signal</a></li>
+
+
+              </ul>
+            </div>
+          </li>
+          <li class="click-me px-2.5 py-4 flex items-center relative">
+            <a href="" class="text-white mr-2.5 text-[15px] font-normal">Page</a><i
+              class="fa-solid fa-sort-down text-white text-[10px]"></i>
+            <div
+              class="dropdown invisible opacity-0 absolute p-5 bg-white min-w-[240px] top-[66px] rounded left-1 ease-in-out duration-300">
+              <div class="w-3.5 h-3.5 bg-white top-[-6px] absolute rotate-45 "></div>
+              <ul class="">
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">404</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">About</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Become Expert</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Help Center</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Login</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Register</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Term</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Invoice</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">UI Elements</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="click-me px-2.5 py-4 flex items-center relative">
+            <a href="" class="text-white mr-2.5 text-[15px] font-normal">Dashbord</a><i
+              class="fa-solid fa-sort-down text-white text-[10px]"></i>
+            <div
+              class="dropdown invisible opacity-0 absolute p-5 bg-white min-w-[240px] top-[66px] rounded left-1 ease-in-out duration-300">
+              <div class="w-3.5 h-3.5 bg-white top-[-6px] absolute rotate-45 "></div>
+              <ul class="">
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Dashbord</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Booking</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Setting</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Wishlist</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Vendor Dashbord</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Vendor Add Hotel</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Vendor Booking</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Vendor Hotels</a></li>
+                <li class="py-1.5 rounded px-4 flex text-sm hover:bg-[#3554d10d] hover:text-blue-600"><a href="#"
+                    class="p-[2px]">Vendor Recovery</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="px-2.5 py-4 flex items-center">
+            <a href="" class="text-white mr-2.5 text-[15px] font-normal hover:text-blue-600">Content</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-head">
+    <div class="right-head justify-between">
+      <ul class="justify-between flex px-4 items-center">
+        <li class="px-2.5 py-4 flex items-center box">
+
+          <a href="#popup1" class="button text-white mr-2.5 text-sm font-normal">USD</a><i
+            class="fa-solid fa-sort-down text-white text-[10px]"></i>
+
+          <div id="popup1"
+            class="overlay invisible fixed bg-[#0000006b] top-0 bottom-0 right-0 left-0 opacity-0 transition-opacity">
+            <div class="popup relative rounded ease-in-out w-[1070px] bg-white mx-auto mt-[8rem]">
+              <div class="flex justify-between items-center py-5 px-[30px] border-b ">
+                <div class="">
+                  <h1 class="text-[20px] font-semibold">Select your currency</h1>
+                </div>
+                <div class=""><a class="close text-[28px]" href="#">&times;</a></div>
+              </div>
+              <div class="content p-[30px]">
+                <div class="grid grid-rows-4 grid-flow-col gap-[30px]">
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">United States
+                      dollar</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">USD - $</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">United States
+                      dollar</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">USD - $</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">United States
+                      dollar</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">USD - $</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">United States
+                      dollar</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">USD - $</div>
+                  </div>
+
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold"> Australian
+                      dollar</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">AUD - $</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold"> Australian
+                      dollar</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">AUD - $</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold"> Australian
+                      dollar</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">AUD - $</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold"> Australian
+                      dollar</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">AUD - $</div>
+                  </div>
+
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Brazilian
+                      real</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">BRL - R$</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Brazilian
+                      real</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">BRL - R$</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Brazilian
+                      real</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">BRL - R$</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Brazilian
+                      real</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">BRL - R$</div>
+                  </div>
+
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Bulgarian lev
+                    </div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">BGN - лв.</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Bulgarian lev
+                    </div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">BGN - лв.</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Bulgarian lev
+                    </div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">BGN - лв.</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Bulgarian lev
+                    </div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">BGN - лв.</div>
+                  </div>
+
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Canadian
+                      dollar</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">CAD - $</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Canadian
+                      dollar</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">CAD - $</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Canadian
+                      dollar</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">CAD - $</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Canadian
+                      dollar</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">CAD - $</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="white-line">
+          <div class="w-[2px] h-5 bg-white opacity-20 mx-2.5"></div>
+        </li>
+        <li class="flex items-center text-white font-normal px-2.5 text-sm">
+          <div class="rounded-full h-5 w-5 overflow-hidden mr-2.5">
+            <img src="img/lang.png" alt="" class="" />
+          </div><a href="#popup2" class="button">United Kingdom</a><i
+            class="fa-solid fa-sort-down text-white text-[10px] ml-2.5"></i>
+          <div id="popup2"
+            class="overlay2 invisible fixed bg-[#0000006b] top-0 bottom-0 right-0 left-0 opacity-0 transition-opacity">
+            <div class="popup2 relative rounded ease-in-out w-[1070px] bg-white mx-auto mt-[8rem]">
+              <div class="flex justify-between items-center py-5 px-[30px] border-b ">
+                <div class="">
+                  <h1 class="text-[20px] text-black font-semibold">Select your language</h1>
+                </div>
+                <div class=""><a class="close text-black text-[28px]" href="#">&times;</a></div>
+              </div>
+              <div class="content p-[30px]">
+                <div class="grid grid-rows-4 grid-flow-col gap-[30px]">
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">English</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">United States</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">English</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">United States</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">English</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">United States</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">English</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">United States</div>
+                  </div>
+
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold"> Türkçe</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">Turkey</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold"> Türkçe</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">Turkey</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold"> Türkçe</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">Turkey</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold"> Türkçe</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">Turkey</div>
+                  </div>
+
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Español</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">España</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Español</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">España</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Español</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">España</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Español</div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">España</div>
+                  </div>
+
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Français
+                    </div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">France</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Français
+                    </div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">France</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Français
+                    </div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">France</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Français
+                    </div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">France</div>
+                  </div>
+
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Italiano
+                    </div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">Italia</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Italiano
+                    </div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">Italia</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Italiano
+                    </div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">Italia</div>
+                  </div>
+                  <div
+                    class="rounded text-white px-[15px] py-[10px] diaplay-block hover:bg-[#3554d10d] cursor-pointer ">
+                    <div class="text-[#051036] hover:text-blue-600 text-[15px] inline-block font-semibold">Italiano
+                    </div>
+                    <div class="text-[#051036] text-sm mt-1.5 ">Italia</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </li>
+        <li class="flex items-center">
+          <button type="button"
+            class="text-[#13357b] bg-white px-[30px] h-[50px] rounded ml-5 text-sm hover:bg-[#3554d1] hover:text-white ease-out duration-300 ">
+            Become An Expert
+          </button>
+        </li>
+        <li class="flex items-center">
+          <button type="button"
+            class="text-white border border-white bg-[#13357b] px-[30px] h-[50px] rounded ml-5 text-sm hover:bg-[#3554d1] hover:border-transparent ease-out duration-300">
+            Sign In / Register
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="info-heading pt-[90px]"></div>
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+<!--------------- INFO__BAR__AREA -------------->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<div class="bg-[#F5F5F5]">
+  <div class="container sm md lg xl 2xl mx-auto px-4 max-w-[1320px]">
+    <section class="py-[40px]">
+      <h1 class="text-[30px] font-[600] flex justify-center">
+        Find Your Dream Luxury Hotel
+      </h1>
+
+      <div class="p-2.5 mt-9 bg-white flex justify-between w-[100%]">
+        <div class="form-class flex justify-start w-[90%]">
+          <form class="w-[45%] flex justify-between text-[15px]">
+            <div class="pl-5">
+              <h4 class="font-medium text-[15px]">Location</h4>
+              <div class=" click-here relative ">
+                <input type="text" placeholder="Location" class="outline-none text-[15px]" />
+                <div class="dropdown invisible z-[100] opacity-0 absolute p-[30px] bg-white w-[500px] top-[66px] rounded left-1 ease-in-out duration-300 ">
+                  <ul class="">
+                    <li class="py-1.5 rounded px-4 text-sm hover:bg-[#3554d10d] hover:text-blue-600 py-[15px] px-[20px]">
+                      <div class="flex items-center">
+                        <div class="">
+                          <i class="fa-solid fa-location-dot text-[#697488] text-lg"></i>
+                        </div>
+                        <div class="ml-[10px]">
+                          <div class="text-sm items-center text-[#051036] font-semibold mb-px">
+                            London</div>
+                          <div class="text-sm items-center text-[#697488]">Greater London, United Kingdom</div>
+                        </div>
+                      </div>
+
+                      <div class="flex items-center">
+                        <div class="">
+                          <i class="fa-solid fa-location-dot text-[#697488] text-lg"></i>
+                        </div>
+                        <div class="ml-[10px]">
+                          <div class="text-sm items-center text-[#051036] font-semibold mb-px">
+                            New York</div>
+                          <div class="text-sm items-center text-[#697488]">New York State, United States</div>
+                        </div>
+                      </div>
+                      <div class="flex items-center">
+                        <div class="">
+                          <i class="fa-solid fa-location-dot text-[#697488] text-lg"></i>
+                        </div>
+                        <div class="ml-[10px]">
+                          <div class="text-sm items-center text-[#051036] font-semibold mb-px">King Room</div>
+                          <div class="text-sm items-center text-[#697488]">1 extra-large double bed</div>
+                        </div>
+                      </div>
+                      <div class="flex items-center">
+                        <div class="">
+                          <i class="fa-solid fa-location-dot text-[#697488] text-lg"></i>
+                        </div>
+                        <div class="ml-[10px]">
+                          <div class="text-sm items-center text-[#051036] font-semibold mb-px">King Room</div>
+                          <div class="text-sm items-center text-[#697488]">1 extra-large double bed</div>
+                        </div>
+                      </div>
+                      <div class="flex items-center">
+                        <div class="">
+                          <i class="fa-solid fa-location-dot text-[#697488] text-lg"></i>
+                        </div>
+                        <div class="ml-[10px]">
+                          <div class="text-sm items-center text-[#051036] font-semibold mb-px">King Room</div>
+                          <div class="text-sm items-center text-[#697488]">1 extra-large double bed</div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              </li>
+
+            </div>
+            <div class="w-px h-[50px] bg-gray-600 opacity-30"></div>
+
+          </form>
+
+          <form action="" class="w-[27.5%] flex justify-between text-[15px]">
+            <div class="">
+              <h4 class="font-medium px-[30px]">Check in - Check out</h4>
+              <input type="text" placeholder="Wed 2 Mar - Fri 11 Apr" class="outline-none w-[] px-[30px] text-[15px]" />
+            </div>
+            <div class="w-px h-[50px] bg-gray-600 opacity-30"></div>
+
+          </form>
+
+
+
+          <form action="" class="w-[22.5%]">
+            <h4 class="font-medium px-[30px] text-[15px]">Guest</h4>
+            <input type="text" placeholder="2 adults - 1 childeren - 1 room"
+              class="outline-none w-[100%] px-[30px] text-[15px]" />
+          </form>
+        </div>
+        <div class="btn-clas w-[12%]">
+          <button type="button"
+            class="text-white bg-[#3554D1] px-[40px] py-[15px] rounded  text-sm hover:bg-blue-950 [w-10%] text-[16px] font-semibold flex items-center ease-out duration-300">
+            <i class="fa-solid fa-search mr-2.5"></i>Search
+
+          </button>
+        </div>
+      </div>
+  </div>
+  </section>
+</div>
+</div>
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+<!--------------- CONTENT__DETAILS__AREA -------------->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<div class="container sm md lg xl 2xl mx-auto px-4 max-w-[1320px]">
+
+  <section class="content pt-[60px] pb-[120px]">
+
+    <div class="flex">
+
+      <!-- left-area -->
+      <div class="w-[25%] pr-[15px]">
+        <div class="">
+
+          <div class=" h-[180px] relative bg-[url('img/map.png')] bg-center bg-no-repeat bg-cover ">
+            <div
+              class="bg-white py-[15px] px-[24px] text-[15px] inline-block rounded hover:bg-[#3554d1] hover:text-white absolute right-[4rem] top-[4rem] flex items-center ">
+              <i class="fa-regular fa-map px-1.5"></i>Show on map
+            </div>
+          </div>
+        </div>
+        <div class="py-5">
+          <div class="pt-5 text-lg font-medium mb-3.5">Search by property name</div>
+          <div class="py-1.5">
+
+            <div class="py-3 border border-slate-400 rounded">
+              <i class="fa-solid fa-search px-[15px] text-slate-500 text-[20px]"></i>
+              <input type="text" placeholder="e.g. Best Western" class="outline-none text-[15px] text-slate-500">
+            </div>
+          </div>
+        </div>
+        <hr class="">
+
+        <div class=" py-5">
+          <h2 class="text-lg font-medium mb-2.5">Deals</h2>
+          <div class="py-[5px] flex items-center text-[#051036]"><input type="checkbox"
+              class="cursor-pointer rounded w-4 h-4">
+            <div class="ml-3 inline-block">Free cancellation</div>
+          </div>
+          <div class="py-[5px] flex items-center text-[#051036]"><input type="checkbox"
+              class="cursor-pointer rounded w-4 h-4">
+            <div class="ml-3 inline-block">Reserve now, pay at stay</div>
+          </div>
+          <div class="py-[5px] flex items-center text-[#051036]"><input type="checkbox"
+              class="cursor-pointer rounded w-4 h-4">
+            <div class="ml-3 inline-block">Properties with special offers</div>
+          </div>
+        </div>
+        <hr class="">
+        <div class=" py-5">
+          <h2 class="text-lg font-medium mb-2.5">Popular Filters</h2>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Breakfast Included</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">92</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Romantic</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">45</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Airport Transfer</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">21</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">WiFi Included</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">78</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">5 Star</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">679</div>
+          </div>
+        </div>
+
+        <hr class="">
+        <div class=" py-5">
+          <h2 class="text-lg font-medium mb-2.5">Nightly Price</h2>
+
+
+        </div>
+
+        <hr class="">
+        <div class=" py-5">
+          <h2 class="text-lg font-medium mb-2.5">Popular Filters</h2>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Breakfast Included</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">92</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Romantic</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">45</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Airport Transfer</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">21</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">WiFi Included</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">78</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">5 Star</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">679</div>
+          </div>
+        </div>
+
+        <hr class="">
+        <div class=" py-5">
+          <h2 class="text-lg font-medium mb-2.5">Star Rating</h2>
+
+
+        </div>
+
+        <hr class="">
+        <div class=" py-5">
+          <h2 class="text-lg font-semibold mb-2.5">Guest Rating</h2>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="radio" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Any</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">92</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="radio" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Wonderful 4.5+</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">45</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="radio" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Very good 4+</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">21</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="radio" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Good 3.5+</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">78</div>
+          </div>
+        </div>
+
+        <hr class="">
+        <div class=" py-5">
+          <h2 class="text-lg font-medium mb-2.5">Style</h2>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Budget</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">92</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Mid-range</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">45</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Luxury</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">21</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Family-friendly</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">78</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Business</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">679</div>
+          </div>
+        </div>
+
+        <hr class="">
+        <div class=" py-5">
+          <h2 class="text-lg font-medium mb-2.5">Neighborhood </h2>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Central London</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">92</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Guests' favourite area</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">45</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Westminster Borough</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">21</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Kensington and Chelsea</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">78</div>
+          </div>
+          <div class="py-[5px] flex items-center justify-between text-[#051036]">
+            <div class=""><input type="checkbox" class="cursor-pointer rounded w-4 h-4">
+              <div class="ml-3 inline-block">Oxford Street</div>
+            </div>
+            <div class="text-[15px] text-[#697488]">679</div>
+          </div>
+        </div>
+      </div>
+      <!-- right-area -->
+      <div class="w-[75%] px-[15px]">
+        <div class="flex justify-between items-center">
+          <div class="title text-[18px]"> <b class="font-medium">3,269 properties</b> in Europe</div>
+          <button type="button"
+            class="border border-white bg-[#3554d10d] px-[30px] h-[40px] rounded-full text-[#3554d1] ml-5 text-[15px] font-medium hover:text-white hover:bg-blue-700 hover:border-transparent ease-out duration-300">
+            <i class="fa-solid fa-arrow-up-long text-[12px]"></i><i
+              class="fa-solid fa-arrow-down-long text-[12px] pr-2"></i>Top picks for your search
+          </button>
+        </div>
+
+        <div class="mt-[30px]"></div>
+        <hr class="">
+
+        <div class="hotel-box flex pt-[30px] ">
+          <div class="hotel-fotoo w-[28%] rounded relative">
+            <img src="img/1.png" alt="" width="250px" class="rounded">
+            <div
+              class="h-[30px] w-[30px] bg-white rounded-full absolute top-5 right-8 flex justify-center items-center hover:bg-blue-700 hover:text-white ease-out duration-300 ">
+              <i class="fa-regular fa-heart text-sm"></i>
+            </div>
+          </div>
+          <div class="hotel-content px-3 w-[50%]">
+            <h3 class="text-lg font-medium text-[#051036]">Great Northern Hotel, a Tribute Portfolio
+              <h3 class="text-lg font-medium text-[#051036] flex items-center">Hotel, London <div
+                  class="stars text-yellow-400 ml-5 text-[16px]">
+                  &#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;</div>
+              </h3>
+              <div class="flex text-sm items-center text-[#697488] pt-4">Westminster Borough, London <div
+                  class=" text-blue-600  underline underline-offset-1 pl-1.5 cursor-pointer">Show on map</div>
+                <div class="w-[3px] h-[3px] bg-gray-600 rounded-full mt-1 mx-2"></div>2 km to city center
+              </div>
+              <div class="flex text-sm items-center text-[#051036] font-medium mt-5 mb-px">King Room</div>
+              <div class="flex text-sm items-center text-[#697488]">1 extra-large double bed</div>
+              <div class="flex text-sm items-center font-medium text-[#008009] mt-[14px] mb-px">Free
+                cancellation</div>
+              <div class="flex text-sm items-center text-[#008009]">You can cancel later, so lock in this great
+                price today.</div>
+              <div class="flex items-center pt-5">
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Breakfast</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Wifi</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Spa</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Bar</div>
+              </div>
+          </div>
+          <div class="h-c-last w-[22%] ">
+            <div class="flex items-center justify-end">
+              <div class="p-1.5">
+                <div class="text-sm font-medium justify-end flex">Exceptional</div>
+                <div class="text-sm text-[#697488]">3,014 reviews</div>
+              </div>
+              <div class="">
+                <div
+                  class="text-white bg-[#3554d1] rounded flex items-center text-center justify-center text-sm h-[40px]  w-[40px] text-[16px] font-semibold ">
+                  4.8</div>
+              </div>
+            </div>
+            <div class=" mt-10">
+              <div class="flex justify-end text-sm items-center text-[#697488] py-2">8 nights, 2 adult</div>
+              <div class="">
+                <h1 class="text-[22px] font-semibold flex justify-end mb-1">US$72</h1>
+              </div>
+              <div class="flex justify-end text-sm items-center text-[#697488]">+US$828 taxes and charges</div>
+              <div class=" justify-end flex">
+                <button type="button"
+                  class="text-white bg-[#3554d1] px-[30px] py-[15px] mt-5 rounded  text-sm hover:bg-blue-950 [w-10%] text-[16px] font-medium flex items-center ease-out duration-300 flex items-center">
+                  See Availability<i class="fa-solid fa-arrow-up pl-2 rotate-45 text-[20px] ml-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-[30px]"></div>
+        <hr class="">
+
+        <div class="hotel-box flex pt-[30px] ">
+          <div class="hotel-fotoo w-[28%] rounded relative">
+            <img src="img/2.png" alt="" width="250px" class="rounded">
+            <div
+              class="h-[30px] w-[30px] bg-white rounded-full absolute top-5 right-8 flex justify-center items-center hover:bg-blue-700 hover:text-white ease-out duration-300 ">
+              <i class="fa-regular fa-heart text-sm"></i>
+            </div>
+          </div>
+          <div class="hotel-content px-3 w-[50%]">
+            <h3 class="text-lg font-medium text-[#051036]">Great Northern Hotel, a Tribute Portfolio
+              <h3 class="text-lg font-medium text-[#051036] flex items-center">Hotel, London <div
+                  class="stars text-yellow-400 ml-5 text-[16px]">
+                  &#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;</div>
+              </h3>
+              <div class="flex text-sm items-center text-[#697488] pt-4">Westminster Borough, London <div
+                  class=" text-blue-600 underline underline-offset-1 pl-1.5 cursor-pointer">Show on map</div>
+                <div class="w-[3px] h-[3px] bg-gray-600 rounded-full mt-1 mx-2"></div>2 km to city center
+              </div>
+              <div class="flex text-sm items-center text-[#051036] font-medium mt-5 mb-px">King Room</div>
+              <div class="flex text-sm items-center text-[#697488]">1 extra-large double bed</div>
+              <div class="flex text-sm items-center font-medium text-[#008009] mt-[14px] mb-px">Free
+                cancellation</div>
+              <div class="flex text-sm items-center text-[#008009]">You can cancel later, so lock in this great
+                price today.</div>
+              <div class="flex items-center pt-5">
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Breakfast</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Wifi</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Spa</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Bar</div>
+              </div>
+          </div>
+          <div class="h-c-last w-[22%] ">
+            <div class="flex items-center justify-end">
+              <div class="p-1.5">
+                <div class="text-sm font-medium  justify-end flex">Exceptional</div>
+                <div class="text-sm  text-[#697488]">3,014 reviews</div>
+              </div>
+              <div class="">
+                <div
+                  class="text-white bg-[#3554d1] rounded flex items-center text-center justify-center text-sm h-[40px]  w-[40px] text-[16px] font-semibold ">
+                  4.8</div>
+              </div>
+            </div>
+            <div class=" mt-10">
+              <div class="flex justify-end text-sm items-center text-[#697488] py-2">8 nights, 2 adult</div>
+              <div class="">
+                <h1 class="text-[22px] font-semibold flex justify-end mb-1">US$72</h1>
+              </div>
+              <div class="flex justify-end text-sm items-center text-[#697488]">+US$828 taxes and charges</div>
+              <div class=" justify-end flex">
+                <button type="button"
+                  class="text-white bg-[#3554d1] px-[30px] py-[15px] mt-5 rounded  text-sm hover:bg-blue-950 [w-10%] text-[16px] font-medium flex items-center ease-out duration-300 flex items-center">
+                  See Availability<i class="fa-solid fa-arrow-up pl-2 rotate-45 text-[20px] ml-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-[30px]"></div>
+        <hr class="">
+
+        <div class="hotel-box flex pt-[30px] ">
+          <div class="hotel-fotoo w-[28%] rounded relative">
+            <img src="img/3.png" alt="" width="250px" class="rounded">
+            <div
+              class="h-[30px] w-[30px] bg-white rounded-full absolute top-5 right-8 flex justify-center items-center hover:bg-blue-700 hover:text-white ease-out duration-300 ">
+              <i class="fa-regular fa-heart text-sm"></i>
+            </div>
+          </div>
+          <div class="hotel-content px-3 w-[50%]">
+            <h3 class="text-lg font-medium text-[#051036]">Great Northern Hotel, a Tribute Portfolio
+              <h3 class="text-lg font-medium text-[#051036] flex items-center">Hotel, London <div
+                  class="stars text-yellow-400 ml-5 text-[16px]">
+                  &#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;</div>
+              </h3>
+              <div class="flex text-sm items-center text-[#697488] pt-4">Westminster Borough, London <div
+                  class=" text-blue-600 underline underline-offset-1 pl-1.5 cursor-pointer">Show on map</div>
+                <div class="w-[3px] h-[3px] bg-gray-600 rounded-full mt-1 mx-2"></div>2 km to city center
+              </div>
+              <div class="flex text-sm items-center text-[#051036] font-medium mt-5 mb-px">King Room</div>
+              <div class="flex text-sm items-center text-[#697488]">1 extra-large double bed</div>
+              <div class="flex text-sm items-center font-medium text-[#008009] mt-[14px] mb-px">Free
+                cancellation</div>
+              <div class="flex text-sm items-center text-[#008009]">You can cancel later, so lock in this great
+                price today.</div>
+              <div class="flex items-center pt-5">
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Breakfast</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Wifi</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Spa</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Bar</div>
+              </div>
+          </div>
+          <div class="h-c-last w-[22%] ">
+            <div class="flex items-center justify-end">
+              <div class="p-1.5">
+                <div class="text-sm font-medium  justify-end flex">Exceptional</div>
+                <div class="text-sm  text-[#697488]">3,014 reviews</div>
+              </div>
+              <div class="">
+                <div
+                  class="text-white bg-[#3554d1] rounded flex items-center text-center justify-center text-sm h-[40px]  w-[40px] text-[16px] font-semibold ">
+                  4.8</div>
+              </div>
+            </div>
+            <div class=" mt-10">
+              <div class="flex justify-end text-sm items-center text-[#697488] py-2">8 nights, 2 adult</div>
+              <div class="">
+                <h1 class="text-[22px] font-semibold flex justify-end mb-1">US$72</h1>
+              </div>
+              <div class="flex justify-end text-sm items-center text-[#697488]">+US$828 taxes and charges</div>
+              <div class=" justify-end flex">
+                <button type="button"
+                  class="text-white bg-[#3554d1] px-[30px] py-[15px] mt-5 rounded  text-sm hover:bg-blue-950 [w-10%] text-[16px] font-medium flex items-center ease-out duration-300 flex items-center">
+                  See Availability<i class="fa-solid fa-arrow-up pl-2 rotate-45 text-[20px] ml-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-[30px]"></div>
+        <hr class="">
+
+        <div class="hotel-box flex pt-[30px] ">
+          <div class="hotel-fotoo w-[28%] rounded relative">
+            <img src="img/4.png" alt="" width="250px" class="rounded">
+            <div
+              class="h-[30px] w-[30px] bg-white rounded-full absolute top-5 right-8 flex justify-center items-center hover:bg-blue-700 hover:text-white ease-out duration-300 ">
+              <i class="fa-regular fa-heart text-sm"></i>
+            </div>
+          </div>
+          <div class="hotel-content px-3 w-[50%]">
+            <h3 class="text-lg font-medium text-[#051036]">Great Northern Hotel, a Tribute Portfolio
+              <h3 class="text-lg font-medium text-[#051036] flex items-center">Hotel, London <div
+                  class="stars text-yellow-400 ml-5 text-[16px]">
+                  &#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;</div>
+              </h3>
+              <div class="flex text-sm items-center text-[#697488] pt-4">Westminster Borough, London <div
+                  class=" text-blue-600 underline underline-offset-1 pl-1.5 cursor-pointer">Show on map</div>
+                <div class="w-[3px] h-[3px] bg-gray-600 rounded-full mt-1 mx-2"></div>2 km to city center
+              </div>
+              <div class="flex text-sm items-center text-[#051036] font-medium mt-5 mb-px">King Room</div>
+              <div class="flex text-sm items-center text-[#697488]">1 extra-large double bed</div>
+              <div class="flex text-sm items-center font-medium text-[#008009] mt-[14px] mb-px">Free
+                cancellation</div>
+              <div class="flex text-sm items-center text-[#008009]">You can cancel later, so lock in this great
+                price today.</div>
+              <div class="flex items-center pt-5">
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Breakfast</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Wifi</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Spa</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Bar</div>
+              </div>
+          </div>
+          <div class="h-c-last w-[22%] ">
+            <div class="flex items-center justify-end">
+              <div class="p-1.5">
+                <div class="text-sm font-medium  justify-end flex">Exceptional</div>
+                <div class="text-sm  text-[#697488]">3,014 reviews</div>
+              </div>
+              <div class="">
+                <div
+                  class="text-white bg-[#3554d1] rounded flex items-center text-center justify-center text-sm h-[40px]  w-[40px] text-[16px] font-semibold ">
+                  4.8</div>
+              </div>
+            </div>
+            <div class=" mt-10">
+              <div class="flex justify-end text-sm items-center text-[#697488] py-2">8 nights, 2 adult</div>
+              <div class="">
+                <h1 class="text-[22px] font-semibold flex justify-end mb-1">US$72</h1>
+              </div>
+              <div class="flex justify-end text-sm items-center text-[#697488]">+US$828 taxes and charges</div>
+              <div class=" justify-end flex">
+                <button type="button"
+                  class="text-white bg-[#3554d1] px-[30px] py-[15px] mt-5 rounded  text-sm hover:bg-blue-950 [w-10%] text-[16px] font-medium flex items-center ease-out duration-300 flex items-center">
+                  See Availability<i class="fa-solid fa-arrow-up pl-2 rotate-45 text-[20px] ml-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-[30px]"></div>
+        <hr class="">
+
+        <div class="hotel-box flex pt-[30px] ">
+          <div class="hotel-fotoo w-[28%] rounded relative">
+            <img src="img/5.png" alt="" width="250px" class="rounded">
+            <div
+              class="h-[30px] w-[30px] bg-white rounded-full absolute top-5 right-8 flex justify-center items-center hover:bg-blue-700 hover:text-white ease-out duration-300 ">
+              <i class="fa-regular fa-heart text-sm"></i>
+            </div>
+          </div>
+          <div class="hotel-content px-3 w-[50%]">
+            <h3 class="text-lg font-medium text-[#051036]">Great Northern Hotel, a Tribute Portfolio
+              <h3 class="text-lg font-medium text-[#051036] flex items-center">Hotel, London <div
+                  class="stars text-yellow-400 ml-5 text-[16px]">
+                  &#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;</div>
+              </h3>
+              <div class="flex text-sm items-center text-[#697488] pt-4">Westminster Borough, London <div
+                  class=" text-blue-600 underline underline-offset-1 pl-1.5 cursor-pointer">Show on map</div>
+                <div class="w-[3px] h-[3px] bg-gray-600 rounded-full mt-1 mx-2"></div>2 km to city center
+              </div>
+              <div class="flex text-sm items-center text-[#051036] font-medium mt-5 mb-px">King Room</div>
+              <div class="flex text-sm items-center text-[#697488]">1 extra-large double bed</div>
+              <div class="flex text-sm items-center font-medium text-[#008009] mt-[14px] mb-px">Free
+                cancellation</div>
+              <div class="flex text-sm items-center text-[#008009]">You can cancel later, so lock in this great
+                price today.</div>
+              <div class="flex items-center pt-5">
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Breakfast</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Wifi</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Spa</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Bar</div>
+              </div>
+          </div>
+          <div class="h-c-last w-[22%] ">
+            <div class="flex items-center justify-end">
+              <div class="p-1.5">
+                <div class="text-sm font-medium  justify-end flex">Exceptional</div>
+                <div class="text-sm  text-[#697488]">3,014 reviews</div>
+              </div>
+              <div class="">
+                <div
+                  class="text-white bg-[#3554d1] rounded flex items-center text-center justify-center text-sm h-[40px]  w-[40px] text-[16px] font-semibold ">
+                  4.8</div>
+              </div>
+            </div>
+            <div class=" mt-10">
+              <div class="flex justify-end text-sm items-center text-[#697488] py-2">8 nights, 2 adult</div>
+              <div class="">
+                <h1 class="text-[22px] font-semibold flex justify-end mb-1">US$72</h1>
+              </div>
+              <div class="flex justify-end text-sm items-center text-[#697488]">+US$828 taxes and charges</div>
+              <div class=" justify-end flex">
+                <button type="button"
+                  class="text-white bg-[#3554d1] px-[30px] py-[15px] mt-5 rounded  text-sm hover:bg-blue-950 [w-10%] text-[16px] font-medium flex items-center ease-out duration-300 flex items-center">
+                  See Availability<i class="fa-solid fa-arrow-up pl-2 rotate-45 text-[20px] ml-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-[30px]"></div>
+        <hr class="">
+
+        <div class="hotel-box flex pt-[30px] ">
+          <div class="hotel-fotoo w-[28%] rounded relative">
+            <img src="img/6.png" alt="" width="250px" class="rounded">
+            <div
+              class="h-[30px] w-[30px] bg-white rounded-full absolute top-5 right-8 flex justify-center items-center hover:bg-blue-700 hover:text-white ease-out duration-300 ">
+              <i class="fa-regular fa-heart text-sm"></i>
+            </div>
+          </div>
+          <div class="hotel-content px-3 w-[50%]">
+            <h3 class="text-lg font-medium text-[#051036]">Great Northern Hotel, a Tribute Portfolio
+              <h3 class="text-lg font-medium text-[#051036] flex items-center">Hotel, London <div
+                  class="stars text-yellow-400 ml-5 text-[16px]">
+                  &#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;</div>
+              </h3>
+              <div class="flex text-sm items-center text-[#697488] pt-4">Westminster Borough, London <div
+                  class=" text-blue-600 underline underline-offset-1 pl-1.5 cursor-pointer">Show on map</div>
+                <div class="w-[3px] h-[3px] bg-gray-600 rounded-full mt-1 mx-2"></div>2 km to city center
+              </div>
+              <div class="flex text-sm items-center text-[#051036] font-medium mt-5 mb-px">King Room</div>
+              <div class="flex text-sm items-center text-[#697488]">1 extra-large double bed</div>
+              <div class="flex text-sm items-center font-medium text-[#008009] mt-[14px] mb-px">Free
+                cancellation</div>
+              <div class="flex text-sm items-center text-[#008009]">You can cancel later, so lock in this great
+                price today.</div>
+              <div class="flex items-center pt-5">
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Breakfast</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Wifi</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Spa</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Bar</div>
+              </div>
+          </div>
+          <div class="h-c-last w-[22%] ">
+            <div class="flex items-center justify-end">
+              <div class="p-1.5">
+                <div class="text-sm font-medium  justify-end flex">Exceptional</div>
+                <div class="text-sm  text-[#697488]">3,014 reviews</div>
+              </div>
+              <div class="">
+                <div
+                  class="text-white bg-[#3554d1] rounded flex items-center text-center justify-center text-sm h-[40px]  w-[40px] text-[16px] font-semibold ">
+                  4.8</div>
+              </div>
+            </div>
+            <div class=" mt-10">
+              <div class="flex justify-end text-sm items-center text-[#697488] py-2">8 nights, 2 adult</div>
+              <div class="">
+                <h1 class="text-[22px] font-semibold flex justify-end mb-1">US$72</h1>
+              </div>
+              <div class="flex justify-end text-sm items-center text-[#697488]">+US$828 taxes and charges</div>
+              <div class=" justify-end flex">
+                <button type="button"
+                  class="text-white bg-[#3554d1] px-[30px] py-[15px] mt-5 rounded  text-sm hover:bg-blue-950 [w-10%] text-[16px] font-medium flex items-center ease-out duration-300 flex items-center">
+                  See Availability<i class="fa-solid fa-arrow-up pl-2 rotate-45 text-[20px] ml-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-[30px]"></div>
+        <hr class="">
+
+        <div class="hotel-box flex pt-[30px] ">
+          <div class="hotel-fotoo w-[28%] rounded relative">
+            <img src="img/7.png" alt="" width="250px" class="rounded">
+            <div
+              class="h-[30px] w-[30px] bg-white rounded-full absolute top-5 right-8 flex justify-center items-center hover:bg-blue-700 hover:text-white ease-out duration-300 ">
+              <i class="fa-regular fa-heart text-sm"></i>
+            </div>
+          </div>
+          <div class="hotel-content px-3 w-[50%]">
+            <h3 class="text-lg font-medium text-[#051036]">Great Northern Hotel, a Tribute Portfolio
+              <h3 class="text-lg font-medium text-[#051036] flex items-center">Hotel, London <div
+                  class="stars text-yellow-400 ml-5 text-[16px]">
+                  &#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;</div>
+              </h3>
+              <div class="flex text-sm items-center text-[#697488] pt-4">Westminster Borough, London <div
+                  class=" text-blue-600 underline underline-offset-1 pl-1.5 cursor-pointer">Show on map</div>
+                <div class="w-[3px] h-[3px] bg-gray-600 rounded-full mt-1 mx-2"></div>2 km to city center
+              </div>
+              <div class="flex text-sm items-center text-[#051036] font-medium mt-5 mb-px">King Room</div>
+              <div class="flex text-sm items-center text-[#697488]">1 extra-large double bed</div>
+              <div class="flex text-sm items-center font-medium text-[#008009] mt-[14px] mb-px">Free
+                cancellation</div>
+              <div class="flex text-sm items-center text-[#008009]">You can cancel later, so lock in this great
+                price today.</div>
+              <div class="flex items-center pt-5">
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Breakfast</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Wifi</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Spa</div>
+                <div
+                  class="text-sm rounded-full mx-[3px] px-5 py-[5px] border border-gray-400 bg-white text-black text-center inline-block">
+                  Bar</div>
+              </div>
+          </div>
+          <div class="h-c-last w-[22%] ">
+            <div class="flex items-center justify-end">
+              <div class="p-1.5">
+                <div class="text-sm font-medium  justify-end flex">Exceptional</div>
+                <div class="text-sm  text-[#697488]">3,014 reviews</div>
+              </div>
+              <div class="">
+                <div
+                  class="text-white bg-[#3554d1] rounded flex items-center text-center justify-center text-sm h-[40px]  w-[40px] text-[16px] font-semibold ">
+                  4.8</div>
+              </div>
+            </div>
+            <div class=" mt-10">
+              <div class="flex justify-end text-sm items-center text-[#697488] py-2">8 nights, 2 adult</div>
+              <div class="">
+                <h1 class="text-[22px] font-semibold flex justify-end mb-1">US$72</h1>
+              </div>
+              <div class="flex justify-end text-sm items-center text-[#697488]">+US$828 taxes and charges</div>
+              <div class=" justify-end flex">
+                <button type="button"
+                  class="text-white bg-[#3554d1] px-[30px] py-[15px] mt-5 rounded  text-sm hover:bg-blue-950 [w-10%] text-[16px] font-medium flex items-center ease-out duration-300 flex items-center">
+                  See Availability<i class="fa-solid fa-arrow-up pl-2 rotate-45 text-[20px] ml-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-[30px]"></div>
+        <hr class="">
+        <div class="mt-[30px]"></div>
+
+
+        <div class="flex justify-between items-center">
+
+
+          <div
+            class="h-10 w-10 flex items-center justify-center bg-white border rounded-full hover:bg-blue-700 hover:text-white text-black">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+
+          <div class="flex">
+            <div
+              class="h-10 w-10 mx-2 rounded-full flex items-center  cursor-pointer justify-center bg-white  text-black">
+              1</div>
+            <div
+              class="h-10 w-10 mx-2 rounded-full flex items-center cursor-pointer justify-center bg-[#051036] text-white">
+              2</div>
+            <div
+              class="h-10 w-10 mx-2 rounded-full flex items-center cursor-pointer justify-center bg-white  text-black">
+              3</div>
+            <div
+              class="h-10 w-10 mx-2 rounded-full flex items-center cursor-pointer justify-center  bg-[#f5f5f5] hover:bg-blue-700 hover:text-white text-black">
+              4</div>
+            <div
+              class="h-10 w-10 mx-2 rounded-full flex items-center cursor-pointer justify-center bg-white  text-black">
+              5</div>
+            <div
+              class="h-10 w-10 mx-2 rounded-full flex items-center cursor-pointer justify-center bg-white  text-black">
+              ...</div>
+            <div
+              class="h-10 w-10 mx-2 rounded-full flex items-center cursor-pointer justify-center bg-white  text-black">
+              20</div>
+          </div>
+
+
+
+
+          <div
+            class="h-10 w-10 flex items-center justify-center bg-white border hover:bg-blue-700 rounded-full hover:text-white text-black">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+
+        </div>
+        <div class="mt-[30px]"></div>
+        <div class="flex justify-center text-sm items-center text-[#697488]">1 - 20 of 300+ properties found</div>
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+<!--------------- REVIEW__AREA -------------->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+<section class="review">
+  <div class="py-[60px] bg-[#0D2857]  text-white">
+
+    <div class="container sm md lg xl 2xl mx-auto px-4 max-w-[1320px] ">
+      <div class="flex justify-between items-center">
+
+        <div class=" flex items-center">
+          <div class="px-[15px] ">
+            <i class="fa-solid fa-envelope-open-text text-[60px] text-white"></i>
+          </div>
+          <div class="px-[15px] font-semibold">
+            <h4 class="text-[26px]">Your Travel Journey Starts Here</h4>
+            <div class="text-[16px] font-[400]">Sign up and we'll send the best deals to you
+            </div>
+          </div>
+        </div>
+
+        <div class="flex items-center">
+          <div class="px-[5px]">
+            <input type="text" placeholder="Your Email"
+              class="outline-none px-[20px] py-[17px] text-[16px] text-black rounded w-[410px]">
+          </div>
+          <div class=" px-[5px]">
+            <button class="py-4 px-[30px] h-[60px] bg-[#3554d1] text-white font-medium rounded">Subscribe</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+<!--------------- FOOTER -------------->
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+<section class="footer">
+  <div class="container sm md lg xl 2xl mx-auto px-4 max-w-[1320px] ">
+
+    <div class="py-[60px]">
+
+      <div class="justify-between flex">
+
+        <div class="w-1/6 py-5 px-[15px]">
+          <div class=" text-black font-semibold text-[16px]">Contact Us</div>
+          <div class="text-sm mt-[30px] pb-1">Toll Free Customer Care</div>
+          <div class="text-lg text-blue-600 font-semibold text-[#3554D1]">+(1) 123 456 7890</div>
+          <div class="mt-[35px]">
+            <div class="text-sm pb-1">Need live support?</div>
+            <div class="text-lg text-blue-600 font-semibold text-[#3554D1]">hi@gotrip.com</div>
+          </div>
+        </div>
+        <div class="w-1/6 py-5 px-[15px]">
+          <div class=" text-black font-semibold mb-[30px] text-[16px]">Company</div>
+
+          <div class=" flex flex-col">
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">About Us</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Careers</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Blog</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Press</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Gift Cards</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Magazine</a>
+
+          </div>
+
+        </div>
+        <div class="w-1/6 py-5 px-[15px]">
+          <div class=" text-black font-semibold mb-[30px] text-[16px]">Support</div>
+
+          <div class=" flex flex-col">
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Contact</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Legal Notice</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Privacy Policy</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Press</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Terms and Conditions</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Sitemap
+            </a>
+
+          </div>
+        </div>
+        <div class="w-1/6 py-5 px-[15px]">
+          <div class=" text-black font-semibold mb-[30px] text-[16px]">Other Services</div>
+
+          <div class=" flex flex-col">
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Car hire </a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Activity Finder</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Tour List</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Flight finder</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Cruise Ticket</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Holiday Rental</a>
+            <a href="#" class="py-1.5 hover:text-[#3554d1] inline-block text-[16px]">Travel Agents</a>
+
+
+          </div>
+        </div>
+        <div class="w-1/6 py-5 px-[15px]">
+          <div class="text-black font-semibold mb-[30px] text-[16px]">Mobile</div>
+
+          <div class="py-[10px] px-[20px] border rounded">
+            <div class="flex items-center">
+              <div class="">
+                <i class="fa-brands fa-apple text-black text-[24px]"></i>
+              </div>
+              <div class="ml-5">
+                <p class="text-[#697488] text-sm">Downlod on the</p>
+                <h3 class="text-[15px] text-black font-medium">Apple Store</h3>
+              </div>
+            </div>
+          </div>
+          <div class="py-[10px] px-[20px] border rounded mt-5">
+            <div class="flex items-center">
+              <div class="">
+                <i class="fa-brands fa-google-play text-black text-[24px]"></i>
+              </div>
+              <div class="ml-5">
+                <p class="text-[#697488] text-sm">Get in on</p>
+                <h3 class="text-[15px] text-black font-medium">Google Play</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+    <hr class="">
+    <div class="py-5 flex justify-between">
+      <div class="flex">
+        <div class=" flex font-medium text-black">© 2022 GoTrip LLC All rights reserved.</div>
+        <div class="flex px-[15px]">
+          <div class="text-[16px] hover:text-blue-600 text-black px-2.5">Privacy</div>
+          <div class="text-[16px] hover:text-blue-600 text-black px-2.5">Site Map</div>
+          <div class="text-[16px] hover:text-blue-600 text-black px-2.5">Terms</div>
+        </div>
+      </div>
+      <div class="flex text-sm">
+        <div class="underline px-2 cursor-pointer"><i class="fa-solid fa-globe px-2"></i> English (US)</div>
+
+        <div class="underline cursor-pointer"><i class="fa-solid fa-dollar-sign mx-2"></i>USD</div>
+        <div class="flex pl-2 items-center">
+          <i class="fa-brands text-sm hover:text-blue-600 cursor-pointer px-2.5 fa-facebook-f"></i>
+          <i class="fa-brands text-sm hover:text-blue-600 cursor-pointer px-2.5 fa-instagram"></i>
+          <i class="fa-brands text-sm hover:text-blue-600 cursor-pointer px-2.5 fa-x-twitter"></i>
+          <i class="fa-brands text-sm hover:text-blue-600 cursor-pointer px-2.5 fa-linkedin"></i>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+</body>
+
+</html>
